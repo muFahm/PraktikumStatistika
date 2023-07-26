@@ -1,0 +1,5 @@
+fahmi = read.delim("clipboard")
+View(fahmi)
+str(fahmi)
+mean(fahmi$Penghasilan)
+t.test(fahmi$Penghasilan, mu=14500)
