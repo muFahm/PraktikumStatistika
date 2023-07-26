@@ -1,0 +1,5 @@
+fahmi = read.delim("clipboard")
+View(fahmi)
+str(fahmi)
+mean(fahmi$Volume)
+t.test(fahmi$Volume, mu=10)
